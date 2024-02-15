@@ -89,10 +89,10 @@ The -p 3000:3000 maps port 3000 on the host to port 3000 on the container.
 
 -test this request by typing "curl http://localhost:3000", this should give you a response "Hello World"
 
-- Push the image to the repository, ***please replace [project-id] with your project id on GCP***:
+- Push the image to the repository, ***please replace swcon-413210 with your project id on GCP***:
 
 ```bash
-gcloud submit --region=us-central1 --tag us-central1-docker.pkg.dev/[project-id]/docker-repo/hellojs:latest
+gcloud submit --region=us-central1 --tag us-central1-docker.pkg.dev/swcon-413210/docker-repo/hellojs:latest
 ```
 
 After the fetching and pushing is done, you can go to the console and check the repository to see the image.
