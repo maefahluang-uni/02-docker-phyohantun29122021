@@ -2,7 +2,7 @@ Build Docker on Cloud Infrastructure
 ==========================================
 
 ## GCP Cloud Shell
-Go to GCP console and open **"cloud shell"** with the icon on the top right corner. This cloud shell is a virtual machine that already has the gcloud command line tool installed. We will use this tool to interact with GCP.
+Go to GCP console and open **"cloud shell"** with the icon on the top right corner. This cloud shell is a virtual machine that already has the gcloud command line tool installed. We will use this tool to interact with GCP.....
 
 ## Clone your repository
 - In the cloud shell, clone your repository by typing:
